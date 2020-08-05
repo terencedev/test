@@ -790,7 +790,7 @@ section {
 
 #sales p {
   text-align: center;
-  width: 600px;
+  max-width: 600px;
   font-size: 1.2em;
   font-weight: 400;
   margin: 30px auto 30px auto;
@@ -802,7 +802,8 @@ section {
 }
 
 .table {
-  width: 800px;
+  width: 90%;
+  max-width: 800px;
 }
 
 table tr:nth-child(odd) {
@@ -1301,7 +1302,7 @@ input[type] {
 }
 
 /*RWD*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 510px) {
   .logo .mr-auto {
     max-height: 40px;
   }
@@ -1310,16 +1311,20 @@ input[type] {
     font-size: 1em;
   }
 
+  #hero h1 {
+    font-size: 32px;
+  }
+
   #hero h2 {
     font-size: 32px;
   }
 
-  .hero p {
-    font-size: 10px;
+  #hero p {
+    font-size: 20px;
   }
 
   #heroCarousel {
-    padding-top: 250px;
+    margin-top: 250px;
     padding-bottom: 30px;
   }
 
@@ -1373,8 +1378,8 @@ input[type] {
     width: 30%;
   }
 
-  .register-right #p5 {
-    top: 90px;
+  #register-right #p5 {
+    top: 130px;
     right: 0;
     width: 30%;
   }
@@ -1399,7 +1404,6 @@ input[type] {
   }
 
   table {
-    max-width: 350px;
     width: 100%;
   }
 
@@ -1527,19 +1531,14 @@ input[type] {
   }
 
   table {
-    width: 100%;
-    max-width: 700px;
+    max-width: 90%;
   }
 
   .graph img {
     max-width: 200px !important;
   }
 
-  .rp-team .col-md-3 {
-    -ms-flex: 0 0 33%;
-    flex: 0 0 33%;
-    max-width: 33%;
-  }
+
 }
 
 @media only screen and (max-width: 1500px) {

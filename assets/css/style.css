@@ -1301,7 +1301,7 @@ input[type] {
 }
 
 /*RWD*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .logo .mr-auto {
     max-height: 40px;
   }
@@ -1457,7 +1457,13 @@ input[type] {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+
+  #heroCarousel {
+    padding-top: 150px;
+    padding-bottom: 30px;
+  }
+
   .logo .mr-auto {
     max-height: 40px;
   }
